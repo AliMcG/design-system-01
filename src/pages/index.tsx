@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import MyDropdown from "~/components/DropUpButton";
 
 const Home: NextPage = () => {
   return (
@@ -40,6 +41,7 @@ const Home: NextPage = () => {
             </Link>
           </div>
         </div>
+        <MyDropdown />
       </main>
     </>
   );
