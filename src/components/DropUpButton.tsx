@@ -1,5 +1,5 @@
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useEffect, useRef, useState } from "react";
+import { Fragment } from "react";
 import { ChevronDownIcon, UserIcon, SignalIcon, LockClosedIcon,  } from "@heroicons/react/20/solid";
 
 const links = [

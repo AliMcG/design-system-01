@@ -44,7 +44,7 @@ export const Button = ({
       {label}
       <style jsx>{`
         button {
-          background-color: ${backgroundColor};
+          background-color: ${backgroundColor as string};
         }
       `}</style>
     </button>
